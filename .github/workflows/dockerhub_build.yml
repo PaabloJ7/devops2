@@ -55,7 +55,7 @@ jobs:
         script: |
             sleep 60
             docker compose down --rmi all
-            docker compose up -d
+            docker-compose up -d
 
 # https://github.com/docker/login-action
 # https://github.com/docker/build-push-action
